@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workspace Health Review"
+  short_description: "Review workspace governance health"
+  default_prompt: "Use $workspace-health-review to review this workspace for durable record health, agent instruction debt, skill/rule load, stale context, ownership gaps, and recovery risks. Start with analysis only and do not modify files without approval."
