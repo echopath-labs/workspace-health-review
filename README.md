@@ -99,6 +99,23 @@ Use $workspace-health-review to review this workspace before a large refactor. S
 
 More prompts are available in [examples/](examples/).
 
+## Context Cost & Activation
+
+This skill is lightweight and mostly on-demand.
+
+- Recommended scope: project or workspace level.
+- Global installation: optional if you want this review discipline across most coding projects.
+- Trigger it for health checks, large refactors, releases, onboarding, cleanup, stale rules, and context debt reviews.
+- Avoid triggering it for casual chat, read-only questions, or simple command output.
+
+Approximate context cost:
+
+- Core skill entry: small.
+- Full reference set: moderate.
+- Examples: optional.
+
+The skill should not continuously occupy model context unless explicitly invoked or configured by the user.
+
 ## Documentation
 
 - [Health Review Reference](references/health-review.md)
