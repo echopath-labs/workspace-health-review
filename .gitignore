@@ -3,3 +3,5 @@ node_modules/
 *.log
 tmp/
 dist/
+openspec/
+AGENTS.md
