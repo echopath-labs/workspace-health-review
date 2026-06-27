@@ -2,6 +2,8 @@
 
 A lightweight governance health review skill for AI-assisted workspaces.
 
+Keep AI-assisted workspaces understandable, recoverable, and safe to continue.
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Skill](https://img.shields.io/badge/skill-Codex%20Skill-111827.svg)
 ![Agents](https://img.shields.io/badge/agents-Codex%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Gemini-2563eb.svg)
@@ -14,13 +16,10 @@ It is a workspace-level governance audit, not an implementation workflow and not
 
 This skill pairs well with [Agent Workflow Governance](https://github.com/echopath-labs/agent-workflow-governance):
 
-```text
-agent-workflow-governance
-= task-level workflow guardrails
-
-workspace-health-review
-= workspace-level governance audit
-```
+| Skill | Scope | Purpose |
+| --- | --- | --- |
+| `agent-workflow-governance` | Task / workflow | Keep agent execution disciplined. |
+| `workspace-health-review` | Workspace | Detect context drift, stale rules, and governance debt. |
 
 ## Why This Exists
 
@@ -81,6 +80,8 @@ mkdir -p ~/.codex/skills
 git clone https://github.com/echopath-labs/workspace-health-review.git ~/.codex/skills/workspace-health-review
 ```
 
+If your agent uses a different skill directory, copy this repository into that agent's skill path.
+
 Restart your Codex session after installing the skill so it can be discovered.
 
 ### Usage
@@ -98,6 +99,31 @@ Use $workspace-health-review to review this workspace before a large refactor. S
 ```
 
 More prompts are available in [examples/](examples/).
+
+## Sample Report
+
+A review should produce a concise, evidence-based summary:
+
+```text
+Workspace Health Review
+
+Status: Warning
+
+Signals:
+- Agent instructions are readable but growing.
+- Two durable record systems appear active.
+- Several stale rules may no longer match current workflow.
+
+P0:
+- Confirm the workspace boundary before the next large refactor.
+
+P1:
+- Review AGENTS.md and remove duplicated instructions.
+- Archive stale decision records after human approval.
+
+P2:
+- Add a short recovery note for onboarding future agents.
+```
 
 ## Context Cost & Activation
 
