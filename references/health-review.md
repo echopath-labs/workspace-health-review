@@ -92,6 +92,31 @@ Flag risks when:
 - important records have no stable entry point;
 - archived or deprecated context still appears as active.
 
+For multi-workspace trees, check whether cross-workspace context has a root
+index instead of being duplicated into broad parent docs.
+
+A healthy root index points to child-owned authoritative records and usually
+includes:
+
+- owner workspace;
+- authoritative record path, such as an OpenSpec change/spec, ADR, issue, doc,
+  or runbook;
+- first recovery entry;
+- fallback search keywords;
+- related workspaces;
+- current status or lifecycle;
+- last verification point.
+
+Flag risks when:
+
+- the root workspace stores detailed child-workspace investigation evidence;
+- child OpenSpec, ADR, issue, or doc records contain details but no root index
+  points to them;
+- root index paths still point to archived or moved active changes;
+- root index entries have no fallback keywords or last verification point;
+- recovery would require reading broad parent history instead of one child
+  authoritative record plus a small index.
+
 ### 6. Context Drift And Context Debt
 
 Context drift means instructions, docs, records, and code no longer agree.

@@ -58,8 +58,19 @@ Recommended next action:
 - Skill / rule load:
 - Ownership clarity:
 - Recovery readiness:
+- Root index health:
 - Context drift:
 - Context debt:
+
+### Root Index Review
+
+- Root index present: yes/no/not needed
+- Owner workspace:
+- Authoritative record:
+- First recovery entry:
+- Fallback keywords:
+- Last verified:
+- Risk:
 
 ### Approval Required
 

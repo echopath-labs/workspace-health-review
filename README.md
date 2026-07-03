@@ -30,6 +30,8 @@ AI coding agents can move quickly, but workspaces can quietly become hard to und
 - durable records accumulate without ownership;
 - old decisions stay active after they become stale;
 - future humans or agents cannot tell where to resume.
+- parent workspaces lose track of which child workspace owns the authoritative
+  record.
 
 Workspace Health Review gives teams a lightweight way to inspect these risks before large refactors, releases, onboarding, or cleanup.
 
@@ -43,11 +45,13 @@ Typical use cases include:
 - pre-refactor or pre-release governance checks;
 - onboarding readiness reviews;
 - AGENTS, CLAUDE, Cursor rule, or custom instruction review;
-- durable record, skill, or rule cleanup planning.
+- durable record, skill, root index, or rule cleanup planning.
 
 ## What The Skill Does
 
-The skill reviews workspace boundary, durable records, agent instructions, skill/rule load, ownership clarity, recovery readiness, context drift, and context debt.
+The skill reviews workspace boundary, durable records, agent instructions,
+skill/rule load, ownership clarity, root index health, recovery readiness,
+context drift, and context debt.
 
 It defaults to Analyze First:
 
