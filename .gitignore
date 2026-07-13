@@ -3,5 +3,20 @@ node_modules/
 *.log
 tmp/
 dist/
+
+# Private AI-assisted development state. The public repository contains the
+# reusable Skill, while these local governance records are versioned separately
+# when needed.
 openspec/
 AGENTS.md
+CLAUDE.md
+GEMINI.md
+CONTEXT.md
+.agents/
+.ai/
+.codex/
+.cursor/
+.claude/
+.echopath/
+.gemini/
+.mcp.json
