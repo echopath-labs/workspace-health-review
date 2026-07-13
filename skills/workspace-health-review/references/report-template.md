@@ -11,8 +11,9 @@ Mode: Analyze first
 
 ### Summary
 
-Overall score:
-Status:
+Overall status:
+Numeric score: optional
+Scoring method and evidence: required when a numeric score is present
 Main risk:
 Recommended next action:
 

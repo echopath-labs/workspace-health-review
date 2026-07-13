@@ -34,6 +34,11 @@ Use this skill when the user asks for:
 
 Use `agent-workflow-governance` for task-level implementation workflow. Use this skill for workspace-level health review.
 
+Do not activate this review automatically inside an implementation task merely
+because `agent-workflow-governance` is active. Run it as an explicit or periodic
+workspace audit, or propose it separately when a task exposes workspace-wide
+governance debt.
+
 ## Mode
 
 Default to Analyze First.
@@ -48,6 +53,8 @@ Do not modify files, archive records, delete rules, rewrite skills, or change ag
 4. Review health signals using `references/health-review.md`.
 5. Produce a report with:
    - workspace inventory;
+   - evidence-backed overall status;
+   - an optional numeric score only when its method and evidence are shown;
    - durable record health;
    - agent instruction and rule health;
    - skill/load health;

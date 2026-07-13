@@ -133,7 +133,15 @@ Examples:
 
 ## Scoring Guidance
 
-Use scores as communication tools, not as fake precision.
+Default to a categorical status: `Healthy`, `Watch`, `Risky`, or `Critical`.
+Use that status as the primary communication surface.
+
+A numeric score is optional. Include one only when the report also shows the
+method, evaluated signals, and evidence supporting the result. Never invent a
+precise score merely to fill a template.
+
+When a numeric score is useful, use it as a communication tool, not as fake
+precision.
 
 Suggested scale:
 
