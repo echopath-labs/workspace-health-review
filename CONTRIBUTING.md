@@ -15,7 +15,7 @@ Contributions are welcome when they keep the skill generic, lightweight, and saf
 Before proposing changes:
 
 ```bash
-python3 ${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py .
+python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py" .
 ```
 
 If you do not have that validator, manually check that `SKILL.md` has valid YAML frontmatter with `name` and `description`.
