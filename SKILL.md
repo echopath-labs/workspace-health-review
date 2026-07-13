@@ -15,6 +15,10 @@ Is this workspace still maintainable, recoverable, and safe for agents to work i
 
 It does not implement features, fix bugs, execute releases, or modify governance files without approval.
 
+Default to standalone operation. If the user has enabled a context governance
+platform, read `references/context-governance-platform.md` and use only its
+approved, observable inputs. Platform availability must never block the review.
+
 ## Activation
 
 Use this skill when the user asks for:
@@ -59,5 +63,6 @@ Read only the reference needed for the current task:
 
 - `references/health-review.md`: detailed review signals, scoring guidance, and report structure.
 - `references/report-template.md`: copy-ready report format.
+- `references/context-governance-platform.md`: when a user-authorized platform supplies governance state or receives the review result.
 
 If the workspace has no durable record system, do not initialize one silently. Report the gap and propose options for the user to approve.

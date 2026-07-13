@@ -158,6 +158,12 @@ The skill should not continuously occupy model context unless explicitly invoked
 
 The skill is written for Codex skill conventions. The review workflow can be adapted to Claude Code, Cursor, Gemini CLI, and similar AI coding agents that support reusable instructions.
 
+Standalone use is the default. It can also consume user-approved governance
+state and return review findings through an optional context governance
+platform without depending on that platform.
+
+See [Platform Integration Contract](references/context-governance-platform.md).
+
 ## Open Source Boundary
 
 This repository contains only generic workspace health review guidance.

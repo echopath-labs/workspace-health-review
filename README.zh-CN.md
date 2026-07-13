@@ -155,6 +155,10 @@ P2：
 
 这个 Skill 按 Codex Skill 规范编写。它的审查流程也可以迁移到 Claude Code、Cursor、Gemini CLI 等支持可复用指令的 AI 编码工具。
 
+默认采用独立运行模式；也可以读取用户已确认的治理状态，并通过可选的上下文治理平台返回审查结果，但不会依赖该平台才能工作。
+
+见 [治理平台适配契约](references/context-governance-platform.md)。
+
 ## 开源边界
 
 这个仓库只包含通用工作区健康检查指导。
