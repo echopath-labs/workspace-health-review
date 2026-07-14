@@ -7,8 +7,8 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Skill](https://img.shields.io/badge/skill-Codex%20Skill-111827.svg)
 ![Agents](https://img.shields.io/badge/agents-Codex%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Gemini-2563eb.svg)
-![Core context](https://img.shields.io/badge/core_context-%E2%89%880.9k_tokens-7c3aed.svg)
-![Core size](https://img.shields.io/badge/core_size-3.4KB-0f766e.svg)
+![Core context](https://img.shields.io/badge/core_context-%E2%89%881.0k_tokens-7c3aed.svg)
+![Core size](https://img.shields.io/badge/core_size-4.0KB-0f766e.svg)
 
 > English version: [README.md](README.md)
 
@@ -146,7 +146,7 @@ P2：
 
 大致上下文成本：
 
-- 核心 Skill 入口：源码约 3.4 KB，按英文 Markdown 粗略估算约 0.9k tokens。
+- 核心 Skill 入口：源码约 4.0 KB，按英文 Markdown 粗略估算约 1.0k tokens。
 - 完整参考资料：中等。
 - 示例：可选。
 
@@ -156,6 +156,7 @@ P2：
 
 - [健康检查参考](skills/workspace-health-review/references/health-review.md)
 - [报告模板](skills/workspace-health-review/references/report-template.md)
+- [集成结果契约](skills/workspace-health-review/references/result-contract.md)
 - [示例](examples/)
 - [路线图](ROADMAP.md)
 - [变更日志](CHANGELOG.md)

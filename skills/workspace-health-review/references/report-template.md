@@ -2,6 +2,10 @@
 
 Use this format for workspace health review output.
 
+This human-readable report is the default. When a user or approved integration
+requests machine-readable output, also use `result-contract.md`; do not replace
+the readable findings with an unexplained payload.
+
 ```markdown
 ## Workspace Health Review
 

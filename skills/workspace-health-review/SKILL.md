@@ -19,6 +19,13 @@ Default to standalone operation. If the user has enabled a context governance
 platform, read `references/context-governance-platform.md` and use only its
 approved, observable inputs. Platform availability must never block the review.
 
+## Project Extensions
+
+Treat this skill as a portable baseline. Apply nearer workspace instructions and
+project-specific review checks as named extensions when they are more specific or
+stricter. Keep their findings distinguishable from the core review, and surface
+material conflicts instead of silently reconciling them.
+
 ## Activation
 
 Use this skill when the user asks for:
@@ -64,6 +71,10 @@ Do not modify files, archive records, delete rules, rewrite skills, or change ag
    - actions that require human approval.
 6. Keep recommendations specific and path-based. Prefer precise file paths and concrete cleanup targets over broad advice.
 
+When the user requests machine-readable results, or an approved platform needs
+the report, read `references/result-contract.md`. Do not emit the structured
+payload by default.
+
 ## References
 
 Read only the reference needed for the current task:
@@ -71,5 +82,6 @@ Read only the reference needed for the current task:
 - `references/health-review.md`: detailed review signals, scoring guidance, and report structure.
 - `references/report-template.md`: copy-ready report format.
 - `references/context-governance-platform.md`: when a user-authorized platform supplies governance state or receives the review result.
+- `references/result-contract.md`: when a user or approved integration requests structured review input or output.
 
 If the workspace has no durable record system, do not initialize one silently. Report the gap and propose options for the user to approve.

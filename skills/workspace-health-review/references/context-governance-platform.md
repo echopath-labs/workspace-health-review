@@ -33,6 +33,10 @@ stale, missing, broken, or conflicting signals explicitly.
 The skill may return an evidence-based health report, findings, priorities, and
 recommended actions through an approved platform interface.
 
+When structured exchange is required, use `result-contract.md`. The platform may
+accept a subset of the contract, but field meaning and write boundaries must not
+change.
+
 Do not directly archive records, rewrite agent instructions, change lifecycle or
 ownership, update recovery indexes, or mutate platform memory. Changes require a
 separate approved workflow and explicit human confirmation.

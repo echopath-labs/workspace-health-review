@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added an optional structured workspace review input and result contract.
+- Added named project extensions without turning project-specific checks into universal rules.
+- Kept structured integration output opt-in and human-readable findings primary.
+
 ## 0.1.1 - 2026-07-13
 
 - Added root-index recovery health checks for multi-workspace trees.

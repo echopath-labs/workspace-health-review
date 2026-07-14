@@ -7,8 +7,8 @@ Keep AI-assisted workspaces understandable, recoverable, and safe to continue.
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Skill](https://img.shields.io/badge/skill-Codex%20Skill-111827.svg)
 ![Agents](https://img.shields.io/badge/agents-Codex%20%7C%20Claude%20Code%20%7C%20Cursor%20%7C%20Gemini-2563eb.svg)
-![Core context](https://img.shields.io/badge/core_context-%E2%89%880.9k_tokens-7c3aed.svg)
-![Core size](https://img.shields.io/badge/core_size-3.4KB-0f766e.svg)
+![Core context](https://img.shields.io/badge/core_context-%E2%89%881.0k_tokens-7c3aed.svg)
+![Core size](https://img.shields.io/badge/core_size-4.0KB-0f766e.svg)
 
 > 简体中文说明: [README.zh-CN.md](README.zh-CN.md)
 
@@ -149,7 +149,7 @@ This skill is lightweight and mostly on-demand.
 
 Approximate context cost:
 
-- Core skill entry: about 3.4 KB source size, roughly 0.9k tokens by broad English Markdown estimates.
+- Core skill entry: about 4.0 KB source size, roughly 1.0k tokens by broad English Markdown estimates.
 - Full reference set: moderate.
 - Examples: optional.
 
@@ -159,6 +159,7 @@ The skill should not continuously occupy model context unless explicitly invoked
 
 - [Health Review Reference](skills/workspace-health-review/references/health-review.md)
 - [Report Template](skills/workspace-health-review/references/report-template.md)
+- [Integration Result Contract](skills/workspace-health-review/references/result-contract.md)
 - [Examples](examples/)
 - [Roadmap](ROADMAP.md)
 - [Changelog](CHANGELOG.md)
