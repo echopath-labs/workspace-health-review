@@ -5,6 +5,7 @@
 - Added an optional structured workspace review input and result contract.
 - Added named project extensions without turning project-specific checks into universal rules.
 - Kept structured integration output opt-in and human-readable findings primary.
+- Added recommended review triggers and copy-ready `AGENTS.md` adoption templates.
 
 ## 0.1.1 - 2026-07-13
 

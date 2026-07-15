@@ -152,11 +152,16 @@ P2：
 
 除非用户明确调用，或主动配置为默认流程，否则它不应该长期占用模型上下文。
 
+如果希望项目形成稳定的检查节奏，可以让 Agent 向 `AGENTS.md`
+追加一条简洁的触发规则，也可以手动添加。不要把完整检查流程复制进项目指令。见
+[触发与项目配置指南](docs/activation.zh-CN.md)。
+
 ## 文档
 
 - [健康检查参考](skills/workspace-health-review/references/health-review.md)
 - [报告模板](skills/workspace-health-review/references/report-template.md)
 - [集成结果契约](skills/workspace-health-review/references/result-contract.md)
+- [触发与项目配置指南](docs/activation.zh-CN.md)
 - [示例](examples/)
 - [路线图](ROADMAP.md)
 - [变更日志](CHANGELOG.md)

@@ -155,11 +155,16 @@ Approximate context cost:
 
 The skill should not continuously occupy model context unless explicitly invoked or configured by the user.
 
+To adopt a consistent review cadence, ask your Agent to add a concise trigger
+rule to `AGENTS.md`, or add it manually. Do not copy the full review workflow
+into project instructions. See the [Activation Guide](docs/activation.md).
+
 ## Documentation
 
 - [Health Review Reference](skills/workspace-health-review/references/health-review.md)
 - [Report Template](skills/workspace-health-review/references/report-template.md)
 - [Integration Result Contract](skills/workspace-health-review/references/result-contract.md)
+- [Activation Guide](docs/activation.md)
 - [Examples](examples/)
 - [Roadmap](ROADMAP.md)
 - [Changelog](CHANGELOG.md)
